@@ -1,4 +1,5 @@
 SOURCE,NAME,DESCRIPTION
+,git,
 ,sudo,
 ,amd-ucode,
 ,xorg,
@@ -9,8 +10,12 @@ SOURCE,NAME,DESCRIPTION
 ,pulseaudio-alsa,
 ,pavucontrol,
 ,lxappearance,
-,noto-fonts,
-#,noto-fonts-emoji,
+,noto-fonts,Fonts made by google with a fuck ton of of languages supported
+,noto-fonts-emoji,Emoji's
+,ttf-liberation, Needed for Steam
+,ttf-dejavu,
+,ttf-inconsolata,
+,otf-ipafont,Japanese Characters font
 ,sddm,Display manager
 ,arandr,
 ,dunst,
@@ -18,7 +23,7 @@ SOURCE,NAME,DESCRIPTION
 ,nvidia,
 ,nvidia-utils,
 ,lib32-nvidia-utils,
-,rxvt-unicode
+,rxvt-unicode,
 ,firefox,
 ,pcmanfm,
 ,feh,
@@ -27,3 +32,26 @@ SOURCE,NAME,DESCRIPTION
 ,keepassxc,
 ,syncthing,
 ,network-manager-applet,
+,cmus,
+G,yay,
+A,github-desktop,
+,steam,
+,steam-native-runtime,
+,python-pywal,
+,neofetch,
+,redshift,Needs optional dependencies for -gtk version
+,zathura,
+,zathura-pdf-mupdf,
+,unzip,
+,unrar,
+,compton,
+,qbittorrent,
+,chromium,
+,thunderbird,
+,weechat,
+,maim,Screenshot program
+A,sharenix-git,Screenshot program
+,gnome-screenshot,dependency for Sharenix
+,alsa-utils,Required for volume keybindings
+,gvfs,trashcan support
+,xarchiver,
