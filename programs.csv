@@ -34,7 +34,7 @@ SOURCE,NAME,DESCRIPTION
 ,network-manager-applet,Tray icon and GUI for network-manager.
 ,cmus,Terminal music player written in C.
 G,yay,AUR Helper.
-A,github-desktop,GUI client for GIT, built in electron cancer.
+A,github-desktop,GUI client for GIT. Built in electron cancer.
 ,steam,Only real gamers know steam.
 ,steam-native-runtime,Dependencies needed to run steam natively.
 ,python-pywal,Based application that changes colours of the terminal based on the background.
