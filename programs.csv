@@ -55,3 +55,5 @@ A,sharenix-git,Screenshot program. Instantly uploads onto imgur.
 ,alsa-utils,Required for audio volume keybindings.
 ,gvfs,trashcan support.
 ,xarchiver,GUI frontend for several archive tools.
+A,flat-remix-gtk-git,The GTK theme for MARBS.
+A,flat-remix-git,The GTK icons for MARBS.
