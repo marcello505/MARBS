@@ -1,57 +1,57 @@
 SOURCE,NAME,DESCRIPTION
-,git,
-,sudo,
-,amd-ucode,
-,xorg,
-,i3-gaps,
-,i3status,
-,dmenu,
-,pulseaudio,
-,pulseaudio-alsa,
-,pavucontrol,
-,lxappearance,
-,noto-fonts,Fonts made by google with a fuck ton of of languages supported
-,noto-fonts-emoji,Emoji's
-,ttf-liberation, Needed for Steam
-,ttf-dejavu,
-,ttf-inconsolata,
-,otf-ipafont,Japanese Characters font
-,sddm,Display manager
-,arandr,
-,dunst,
-,gvim,
-,nvidia,
-,nvidia-utils,
-,lib32-nvidia-utils,
-,rxvt-unicode,
-,firefox,
-,pcmanfm,
-,feh,
-,sxiv,
-,mpv,
-,keepassxc,
-,syncthing,
-,network-manager-applet,
-,cmus,
-G,yay,
-A,github-desktop,
-,steam,
-,steam-native-runtime,
-,python-pywal,
-,neofetch,
-,redshift,Needs optional dependencies for -gtk version
-,zathura,
-,zathura-pdf-mupdf,
-,unzip,
-,unrar,
-,compton,
-,qbittorrent,
-,chromium,
-,thunderbird,
-,weechat,
-,maim,Screenshot program
-A,sharenix-git,Screenshot program
-,gnome-screenshot,dependency for Sharenix
-,alsa-utils,Required for volume keybindings
-,gvfs,trashcan support
-,xarchiver,
+,git,Self-explanitory.
+,sudo,sudo rm -rf /.
+,amd-ucode,AMD cpu drivers.
+,xorg,Display server that everybody loves.
+,i3-gaps,Minimalistic window manager where config happens in 1 file.
+,i3status,Status bar for i3. Might be replaced soon with i3blocks.
+,dmenu,Suckless application launcher.
+,pulseaudio,Audio server.
+,pulseaudio-alsa,Allows pulseaudio to interface with alsa.
+,pavucontrol,GUI tool for adjusting audio settings.
+,lxappearance,GUI tool for changing GTK themes.
+,noto-fonts,Fonts made by google with a fuck ton of of languages supported.
+,noto-fonts-emoji,Emoji's.
+,ttf-liberation,Needed for Steam and Firefox.
+,ttf-dejavu,Alternative for fonts such as Times New Roman.
+,ttf-inconsolata,Monospace font used for terminals.
+,otf-ipafont,Japanese Characters font.
+,sddm,Display manager.
+,arandr,GUI for Xrandr (included in xorg).
+,dunst,Suckless desktop notifications.
+,gvim,GUI version of VIM with copy and paste abilities. also includes normal VIM.
+,nvidia,Nvidia drivers.
+,nvidia-utils,More Nvidia drivers.
+,lib32-nvidia-utils,Even more Nvidia drivers.
+,rxvt-unicode,The terminal emulator i use.
+,firefox,Browser that everybody knows.
+,pcmanfm,File manger i use.
+,feh,Image viewer that can also set backgrounds only used for the latter.
+,sxiv,Image viewer with some options for pipelining.
+,mpv,Based and redpilled media player.
+,keepassxc,Open-Source Keepass client.
+,syncthing,Based synching application. Used to sync files between all my devices.
+,network-manager-applet,Tray icon and GUI for network-manager.
+,cmus,Terminal music player written in C.
+G,yay,AUR Helper.
+A,github-desktop,GUI client for GIT, built in electron cancer.
+,steam,Only real gamers know steam.
+,steam-native-runtime,Dependencies needed to run steam natively.
+,python-pywal,Based application that changes colours of the terminal based on the background.
+,neofetch,System information tool that displays an ascii version of the distro's logo. meant for screenshots.
+,redshift,Needs optional dependencies for -gtk version.
+,zathura,Document viewer.
+,zathura-pdf-mupdf,PDF support for Zathura.
+,unzip,Exactly what it sounds like.
+,unrar,Exactly what it sounds like.
+,compton,Screen compositor. Helps with screentearing and supports some nice visual effects.
+,qbittorrent,My torrent program of choice.
+,chromium,Used in app-mode for electron cancer such as Discord.
+,thunderbird,E-mail client made by Mozilla.
+,weechat,Terminal IRC client.
+,maim,Screenshot program. Better alternative for scrot.
+A,sharenix-git,Screenshot program. Instantly uploads onto imgur.
+,gnome-screenshot,Dependency for Sharenix.
+,alsa-utils,Required for audio volume keybindings.
+,gvfs,trashcan support.
+,xarchiver,GUI frontend for several archive tools.
