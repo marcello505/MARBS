@@ -18,7 +18,7 @@ SOURCE,NAME,DESCRIPTION
 ,otf-ipafont,Japanese Characters font.
 ,sddm,Display manager.
 ,arandr,GUI for Xrandr (included in xorg).
-,dunst,Suckless desktop notifications.
+,notify-osd,Suckless desktop notifications.
 ,gvim,GUI version of VIM with copy and paste abilities. also includes normal VIM.
 ,nvidia,Nvidia drivers.
 ,nvidia-utils,More Nvidia drivers.
