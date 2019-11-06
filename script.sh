@@ -1,5 +1,11 @@
 #!/bin/bash
 
+while getopts ":h"
+
+
+dotfilesrepo=""
+progsfile=""
+
 error() {
 	echo "ERROR: $1"
 }
@@ -30,7 +36,7 @@ installYay() {
 
 # Adding user + home directory.
 # adduser(){
-# read -p "Please enter a name for a new user:" name
+# read -p "Please enter a name for a new user: " name
 # if useradd -m "$name"
 # then
 # 	echo "Now enter your password."
@@ -46,14 +52,32 @@ installYay() {
 # 	exit
 # fi
 # }
+mainInstall() {
+	echo "$n of $total - Installing $1 - $2"
+	pacman --noconfirm --needed -S "$1" >/dev/null
+}
+
+aurInstall() {
+	echo "$n of $total - Installing $1 - $2"
+	sudo -u "$name" yay -S --noconfirm "$1" >/dev/null
+}
 
 #Install script
-while IFS=, read -r tag program comment; do
-	n=$((n + 1))
-	echo "$comment"
+installLoop() {
+	([ -f "$progsfile" ]) && cp "$progsfile" /tmp/programs.csv) || curl -Ls "$progsfile" | sed '/^#/d' > /tmp/progs.csv
+	while IFS=, read -r tag program comment; do
+		n=$((n + 1))
+		echo "$comment"
+		case "$tag" in
+		"") mainInstall "$program" "$comment" ;;
+		"A") aurInstall "$program" "$comment" ;;
+		"G") ;;
+		"P") ;;
+		esac
 
-done \
-	</tmp/programs.csv
+	done </tmp/programs.csv
+}
+
 #Enabling services
 systemctl enable sddm.service
 
