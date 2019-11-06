@@ -36,7 +36,7 @@ installYay() {
 }
 
 # Adding user + home directory.
-adduser() {
+addUser() {
 	read -p "Please enter a name for a new user: " name
 	if useradd -m "$name"
 	then
@@ -89,3 +89,4 @@ localectl --no-convert set-x11-keymap us pc105 intl
 # Main script
 initialCheck || error "User exited the program"
 installYay || error "User exited the program"
+addUser || error "User exited the program"
