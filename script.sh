@@ -3,8 +3,8 @@
 while getopts ":h"
 
 
-dotfilesrepo=""
-progsfile=""
+dotfilesrepo="https://raw.githubusercontent.com/marcello505/MARBS/master/programs.csv"
+progsfile="https://raw.githubusercontent.com/marcello505/MARBS/master/script.sh"
 
 error() {
 	echo "ERROR: $1"
