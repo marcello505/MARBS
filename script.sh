@@ -1,5 +1,4 @@
 #!/bin/bash
-
 while getopts ":h"
 
 
@@ -36,8 +35,23 @@ installYay() {
 }
 
 # Adding user + home directory.
-addUser() {
+getUser() {
 	read -p "Please enter a name for a new user: " name
+	read -p "Please enter a password: " pass1
+	read -p "Retype your password: " pass2
+	if ["$pass1" = "$pass2"]
+	then
+		echo "Your passwords don't match"
+		exit
+}
+
+addUser() {
+	if [[ -d /home/$name ]]
+	then
+		read -p "This user already exists, do you want to continue? (y/n)" yesno
+		if yesno="y"
+		then
+
 	if useradd -m "$name"
 	then
 		echo "Now enter your password."
