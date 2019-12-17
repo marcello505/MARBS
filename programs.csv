@@ -46,7 +46,7 @@ A,github-desktop,GUI client for GIT. Built in electron cancer.
 ,unrar,Exactly what it sounds like.
 ,compton,Screen compositor. Helps with screentearing and supports some nice visual effects.
 ,qbittorrent,My torrent program of choice.
-,chromium,Used in app-mode for electron cancer such as Discord.
+,chromium,Used for webapps such as trello.
 ,thunderbird,E-mail client made by Mozilla.
 ,weechat,Terminal IRC client.
 ,maim,Screenshot program. Better alternative for scrot.
@@ -60,4 +60,5 @@ A,flat-remix-git,The GTK icons for MARBS.
 ,htop,Bassicly a task manager.
 ,polkit-gnome,Polkit autism.
 ,cups,Printing system.
+,ghostscript,Postscript interperator needed for printing.
 ,hwinfo,command to check hardware.
